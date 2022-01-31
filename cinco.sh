@@ -10,6 +10,6 @@ while [ $numero -ne 0 ]; do
 	read -p "Dame un nº" numero
 done
 
-media=`echo "scale=2; $suma/$cont" | bc`
-#media=$((suma/cont))
+#media=`echo "scale=2; $suma/$cont" | bc`
+media=$((suma/cont))
 echo "La media es $media"
