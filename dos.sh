@@ -1,4 +1,5 @@
 #!/bin/bash
+#script número 2
 read -p "Dame un valor mayor que 0" n1
 
 while [ $n1 -lt 1 ]
